@@ -1,31 +1,31 @@
 module.exports = {
   bot: {
     token: "", //Bot Token from https://discord.com/developers/applications
-    prefix: "!", //Bot Prefix
-    owners: ["740947753135243354", "767726828311543820"], //Bot Onwer ID
+    prefix: "/", //Bot Prefix
+    owners: "1074763726856654898", //Bot Onwer ID
     maintenance: false,
     mongourl:
       "", //https://mongodb.com/cloud/atlas/register
     invite:
-      "", //Link Invite Bot
+      "https://discord.com/oauth2/authorize?client_id=1256840966447304714&permissions=8&integration_type=0&scope=bot", //Link Invite Bot
     bot_add_description:
       "You've just added me to **{guild}**.\nThank you for adding me to your server",
     bot_remove_description:
       "You got me out on the **{guild}** server, sorry if there's a mistake on me"
   },
   status: {
-    stats: "", //Status Bot <idle, online, dnd , invisible>
-    type: "", //Playing Bot <PLAYING, WATCHING , and others>
-    name: "" //Status Playing
+    stats: "idle", //Status Bot <idle, online, dnd , invisible>
+    type: "playing", //Playing Bot <PLAYING, WATCHING , and others>
+    name: "music" //Status Playing
   },
   dash: {
-    secret: "", //SECRET Bot
-    id: "", //ID Bot
+    secret: "1HUHrwvessgY5t0raPnT36RLpxtFKmYA", //SECRET Bot
+    id: "1256840966447304714", //ID Bot
     url: "" //URL
   },
   server: {
-    id: "", //Server ID
-    invite: "https://discord.gg/3grkbgFCFs" //Server Support
+    id: "1255143473007431690", //Server ID
+    invite: "https://discord.gg/7Y7nX5mJQb" //Server Support
   },
   image: {
     welcome:
